@@ -7,8 +7,8 @@
 */
 
   $(document).on('click', '.add_field', function() {
-  $('<input type="text" class="input" place holder="Qty" name="field[]" value="">').insertAfter('.input:last');
-  $('<input type="text" class="input" place holder="SKU" name="field[]" value="">').insertAfter('#sku');
+  $('<input type="text" class="input" placeholder="Qty" name="field[]" value="">').insertAfter('.input:last');
+  $('<input type="text" class="input" placeholder="SKU" name="field[]" value="">').insertAfter('#sku');
 
 })
 
